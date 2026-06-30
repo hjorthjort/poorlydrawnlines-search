@@ -7,17 +7,76 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <main>
-      <section class="hero" aria-labelledby="title">
-        <p class="eyebrow">Deploy check</p>
-        <h1 id="title">Poorly Drawn Lines Search</h1>
-        <p class="summary">
-          A searchable archive for
-          <a href="https://poorlydrawnlines.com/archive/" rel="noreferrer">poorlydrawnlines.com/archive</a>
-          is being set up here.
-        </p>
-        <div class="status">Static Worker assets are live when this page loads from the new repo.</div>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="https://poorlydrawnlines.com/archive/" target="_blank" rel="noreferrer">
+          <span class="brandFace" aria-hidden="true">
+            <span></span>
+            <span></span>
+          </span>
+          <span>
+            <span class="brandName">Poorly Drawn Lines Search</span>
+            <span id="indexMeta" class="meta">Loading index</span>
+          </span>
+        </a>
+        <form id="searchForm" class="search" role="search">
+          <label for="query">Search</label>
+          <div class="searchBox">
+            <input id="query" name="query" type="search" autocomplete="off" autofocus />
+            <button type="submit">Search</button>
+          </div>
+        </form>
+      </header>
+
+      <section class="controls" aria-label="Search controls">
+        <fieldset class="fieldToggles">
+          <legend>Fields</legend>
+          <label><input type="checkbox" name="field" value="titleText" checked /> Title</label>
+          <label><input type="checkbox" name="field" value="comicText" checked /> Comic</label>
+          <label><input type="checkbox" name="field" value="metadataText" /> Metadata</label>
+        </fieldset>
+        <label class="selectControl">
+          <span>Sort</span>
+          <select id="sortOrder">
+            <option value="relevance">Relevance</option>
+            <option value="recent">Newest</option>
+          </select>
+        </label>
+        <label class="selectControl">
+          <span>Show</span>
+          <select id="resultLimit">
+            <option value="48">48</option>
+            <option value="96">96</option>
+            <option value="192">192</option>
+            <option value="0">All</option>
+          </select>
+        </label>
       </section>
+
+      <section class="statusbar">
+        <div id="resultCount">No query</div>
+        <nav id="paginationTop" class="pagination" aria-label="Result pages"></nav>
+      </section>
+
+      <section id="results" class="results" aria-live="polite"></section>
+      <nav id="paginationBottom" class="pagination paginationBottom" aria-label="Result pages"></nav>
     </main>
+
+    <template id="resultTemplate">
+      <a class="result" target="_blank" rel="noreferrer">
+        <figure>
+          <img alt="" loading="lazy" width="220" />
+        </figure>
+        <div class="resultBody">
+          <div class="resultKicker">
+            <span class="resultDate"></span>
+            <span class="badges"></span>
+          </div>
+          <h2 class="resultTitle"></h2>
+          <p class="resultSnippet"></p>
+        </div>
+      </a>
+    </template>
+    <script type="module" src="/app.js"></script>
   </body>
 </html>
