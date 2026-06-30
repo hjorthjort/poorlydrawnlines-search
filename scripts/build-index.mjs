@@ -256,7 +256,23 @@ async function processComic(entry, options) {
   }
 
   if (!entry.imageUrl) {
-    throw new Error(`No archive image found for ${entry.url}`);
+    const record = {
+      id: entry.id,
+      slug: entry.slug,
+      url: entry.url,
+      title: entry.title,
+      date: entry.date,
+      dateLabel: entry.dateLabel,
+      imageUrl: "",
+      localImage: "",
+      thumbnail: await writePlaceholderThumbnail(entry.id),
+      titleText: cleanTitle(entry.title),
+      comicText: "",
+      metadataText: cleanMetadataText([entry.imageAlt, entry.imageTitle].join(" ")),
+      updatedAt: new Date().toISOString()
+    };
+    await writeJsonAtomic(recordPath, record);
+    return record;
   }
 
   const reusableImage = await reusableImageAsset(cachedRecord, entry, options);
@@ -424,6 +440,40 @@ async function writeThumbnail(id, imagePath) {
       .webp({ quality: 58, effort: 4 })
       .toFile(targetPath);
   }
+
+  return relativePath;
+}
+
+async function writePlaceholderThumbnail(id) {
+  const relativePath = `thumbs/${id}.webp`;
+  const targetPath = path.join(rootDir, "public", relativePath);
+  if (await exists(targetPath)) return relativePath;
+
+  await sharp({
+    create: {
+      width: 220,
+      height: 176,
+      channels: 3,
+      background: "#fff3bf"
+    }
+  })
+    .composite([
+      {
+        input: Buffer.from(
+          `<svg xmlns="http://www.w3.org/2000/svg" width="220" height="176" viewBox="0 0 220 176">
+            <rect x="18" y="18" width="184" height="140" rx="8" fill="#fffdf8" stroke="#151515" stroke-width="6"/>
+            <circle cx="83" cy="76" r="8" fill="#151515"/>
+            <circle cx="137" cy="76" r="8" fill="#151515"/>
+            <path d="M79 112c20 12 43 12 62 0" fill="none" stroke="#151515" stroke-width="7" stroke-linecap="round"/>
+            <path d="M157 30l34 22-29 16z" fill="#df4f45" stroke="#151515" stroke-width="5" stroke-linejoin="round"/>
+          </svg>`
+        ),
+        top: 0,
+        left: 0
+      }
+    ])
+    .webp({ quality: 58, effort: 4 })
+    .toFile(targetPath);
 
   return relativePath;
 }
