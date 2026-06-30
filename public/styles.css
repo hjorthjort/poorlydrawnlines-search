@@ -1,0 +1,130 @@
+:root {
+  color-scheme: light;
+  --paper: #faf7f0;
+  --ink: #151515;
+  --muted: #5c5a55;
+  --line: #111111;
+  --blue: #2f6fbb;
+  --yellow: #f2c84b;
+  --green: #2f8f72;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(90deg, rgba(21, 21, 21, 0.06) 1px, transparent 1px),
+    linear-gradient(rgba(21, 21, 21, 0.06) 1px, transparent 1px),
+    var(--paper);
+  background-size: 34px 34px;
+  color: var(--ink);
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+main {
+  width: min(760px, calc(100% - 32px));
+}
+
+.hero {
+  position: relative;
+  padding: 42px;
+  border: 3px solid var(--line);
+  background: #fffdf7;
+  box-shadow: 10px 10px 0 var(--line);
+}
+
+.hero::before,
+.hero::after {
+  position: absolute;
+  content: "";
+  border: 3px solid var(--line);
+  background: var(--yellow);
+}
+
+.hero::before {
+  top: -18px;
+  right: 46px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.hero::after {
+  right: -18px;
+  bottom: 34px;
+  width: 34px;
+  height: 58px;
+  background: var(--green);
+  transform: rotate(8deg);
+}
+
+.eyebrow {
+  width: max-content;
+  margin: 0 0 18px;
+  padding: 6px 10px;
+  border: 2px solid var(--line);
+  background: var(--blue);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+h1 {
+  max-width: 11ch;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 11vw, 6.5rem);
+  line-height: 0.9;
+  letter-spacing: 0;
+}
+
+.summary {
+  max-width: 58ch;
+  margin: 24px 0 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.status {
+  margin-top: 28px;
+  padding: 14px 16px;
+  border: 2px dashed var(--line);
+  background: #fff3bf;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+@media (max-width: 560px) {
+  body {
+    align-items: start;
+    padding-top: 28px;
+  }
+
+  .hero {
+    padding: 28px;
+    box-shadow: 6px 6px 0 var(--line);
+  }
+
+  .hero::before {
+    right: 28px;
+  }
+
+  .hero::after {
+    display: none;
+  }
+}

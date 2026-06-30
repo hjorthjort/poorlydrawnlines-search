@@ -1,0 +1,14 @@
+{
+  "name": "poorlydrawnlines-search",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "serve": "node scripts/server.mjs",
+    "smoke": "node scripts/smoke-test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.105.0"
+  }
+}
