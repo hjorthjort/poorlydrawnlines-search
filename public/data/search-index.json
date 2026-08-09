@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-06T08:20:04.805Z",
+  "generatedAt": "2026-08-09T07:49:09.533Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1657,
-  "totalIndexedComics": 1657,
+  "totalArchiveComics": 1658,
+  "totalIndexedComics": 1658,
   "fields": [
     "titleText",
     "comicText",
@@ -19882,15 +19882,27 @@
       "metadataText": ""
     },
     {
-      "id": "258146",
-      "slug": "258146",
-      "url": "https://poorlydrawnlines.com/comic/258146/",
-      "title": "258146",
-      "date": "2026-07-22",
-      "dateLabel": "Jul 22, 2026",
-      "thumbnail": "thumbs/258146.webp",
-      "titleText": "258146",
+      "id": "didnt-realize",
+      "slug": "didnt-realize",
+      "url": "https://poorlydrawnlines.com/comic/didnt-realize/",
+      "title": "Didn’t Realize",
+      "date": "2026-07-02",
+      "dateLabel": "Jul 2, 2026",
+      "thumbnail": "thumbs/didnt-realize.webp",
+      "titleText": "Didn’t Realize",
       "comicText": "HONESTLY, |\n\nhh.\n\nDIDN'T REALIZE\n\naS\n\nYOU WERE DEAD.\n\noD\n\n~|ty\n\n—!\n\n—-= —\n\n| JUST THOUGHT YOU\n\nHEY, CAN\n\nWERE GOING FOR A\n\n| ASK YOU\n\nSOMETHING?\n\nHALLOWEEN AESTHETIC.\n\na {1 (“~—\n\nBa.\n\nHAT IS WRONG\n\n|S\n\nWHERE TO\n\nWITH YOU?\n\nBEGIN?\n\nog?\n\nOo 7 ©\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "the-dog",
+      "slug": "the-dog",
+      "url": "https://poorlydrawnlines.com/comic/the-dog/",
+      "title": "The Dog",
+      "date": "2026-08-07",
+      "dateLabel": "Aug 7, 2026",
+      "thumbnail": "thumbs/the-dog.webp",
+      "titleText": "The Dog",
+      "comicText": "mal\n\nALL HE DOES |S\n\nTHE DOG ISN'T\n\nCONTEMPLATE\n\nFUN ANYMORE\n\nTHE FUTURE.\n\nMu\n\nN\n\n\\T WAS CUT\n\nE\n\nAT FIRST. HI\n\nM\n\nSTARTED DOING IT.\n\nCONTEMPLATIN\n\nTHE FUTURE\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
