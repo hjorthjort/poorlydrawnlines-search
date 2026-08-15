@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T08:02:31.194Z",
+  "generatedAt": "2026-08-15T07:41:53.697Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1658,
-  "totalIndexedComics": 1658,
+  "totalArchiveComics": 1659,
+  "totalIndexedComics": 1659,
   "fields": [
     "titleText",
     "comicText",
@@ -19903,6 +19903,18 @@
       "thumbnail": "thumbs/the-dog.webp",
       "titleText": "The Dog",
       "comicText": "mal\n\nALL HE DOES |S\n\nTHE DOG ISN'T\n\nCONTEMPLATE\n\nFUN ANYMORE\n\nTHE FUTURE.\n\nMu\n\nN\n\n\\T WAS CUT\n\nE\n\nAT FIRST. HI\n\nM\n\nSTARTED DOING IT.\n\nCONTEMPLATIN\n\nTHE FUTURE\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "contemplating",
+      "slug": "contemplating",
+      "url": "https://poorlydrawnlines.com/comic/contemplating/",
+      "title": "Contemplating",
+      "date": "2026-08-11",
+      "dateLabel": "Aug 11, 2026",
+      "thumbnail": "thumbs/contemplating.webp",
+      "titleText": "Contemplating",
+      "comicText": "DOUG, YOU\n\nNYY\n\nWANNA GO TO\n\nALL MY PETS\n\nTHE PARK?\n\na\n\nARE BUSY\n\nCONTEMPLATING\n\nTHE FUTURE\n\n—\n\n-\n\nIS WHAT |\n\n—\\ WITH\n\n[Ts\n\n\")\n\n—_\n\n|\n\nKITTY, STOP\n\nCONSIDERING THE\n\nFUTILITY OF THINGS!\n\nLh\n\nSs\n\n‘|\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
