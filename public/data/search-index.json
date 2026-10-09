@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T07:49:43.010Z",
+  "generatedAt": "2026-10-09T07:49:07.193Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1669,
-  "totalIndexedComics": 1669,
+  "totalArchiveComics": 1670,
+  "totalIndexedComics": 1670,
   "fields": [
     "titleText",
     "comicText",
@@ -20035,6 +20035,18 @@
       "thumbnail": "thumbs/things-that-can-fly.webp",
       "titleText": "Things That Can Fly",
       "comicText": "WELCOME TO THIS\n\nMEETING OF THE\n\nTHINGS-THAT-CAN-FLY\n\nala\n\n~\n\nAQ\n\né OP.\n\nyp\n\nbh\n\nDd\n\nAIRPLANE\n\nDOESN'T SAY\n\nMUCH\n\nDID BAT\n\nJUST EAT\n\nG\n\nMOSQUITO?\n\nyy\n\nS\n\n| TOLD YOU THE\n\nMEMBERSHIP CRITERIA FOR\n\nTHIS CLUB WAS TOO BROAD\n\nSHUT UP\n\nAIRPLANE!\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "see-you",
+      "slug": "see-you",
+      "url": "https://poorlydrawnlines.com/comic/see-you/",
+      "title": "See You",
+      "date": "2026-10-08",
+      "dateLabel": "Oct 8, 2026",
+      "thumbnail": "thumbs/see-you.webp",
+      "titleText": "See You",
+      "comicText": "mia\n\n| SEE YOU,\n\n[\")\n\nYOU KNOW\n\nBY (eer\n\nBUT FOR THE\n\nRECORD...\n\nLIL\n\n| II\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
