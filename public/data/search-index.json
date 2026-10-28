@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T07:46:02.968Z",
+  "generatedAt": "2026-10-28T07:35:06.038Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1670,
-  "totalIndexedComics": 1670,
+  "totalArchiveComics": 1671,
+  "totalIndexedComics": 1671,
   "fields": [
     "titleText",
     "comicText",
@@ -20047,6 +20047,18 @@
       "thumbnail": "thumbs/see-you.webp",
       "titleText": "See You",
       "comicText": "mia\n\n| SEE YOU,\n\n[\")\n\nYOU KNOW\n\nBY (eer\n\nBUT FOR THE\n\nRECORD...\n\nLIL\n\n| II\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "fake-email",
+      "slug": "fake-email",
+      "url": "https://poorlydrawnlines.com/comic/fake-email/",
+      "title": "Fake Email",
+      "date": "2026-10-27",
+      "dateLabel": "Oct 27, 2026",
+      "thumbnail": "thumbs/fake-email.webp",
+      "titleText": "Fake Email",
+      "comicText": "MOUSE, HAVE YOU\n\nBEEN GIVING\n\n“MOUSE AT MOUSE\n\nEVERYONE A FAKE\n\nEMAIL?\n\nDOT MOUSE?\"\n\ns)\n\nAs\n\n~\n\nOK, THIS IS HARD\n\n| DON'T ACTUALLY\n\nFOR ME TO TALK\n\nABOUT, BUT...\n\nHAVE EMAIL.\n\nuv x uv\n\n3\n\nHOW DO YOU GET\n\nMY NEWSLETTER?\n\naN\n\no=5)\n\n| DIDN'T KNOW YOU\n\nHAD A NEWSLETTER.\n\nes\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
