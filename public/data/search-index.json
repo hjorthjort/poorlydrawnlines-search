@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T07:35:11.482Z",
+  "generatedAt": "2026-11-14T07:34:07.560Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1673,
-  "totalIndexedComics": 1673,
+  "totalArchiveComics": 1674,
+  "totalIndexedComics": 1674,
   "fields": [
     "titleText",
     "comicText",
@@ -20083,6 +20083,18 @@
       "thumbnail": "thumbs/in-a-hole.webp",
       "titleText": "In a Hole",
       "comicText": "MOUSE, WHY ARE\n\nTHIS IS WHERE\n\nYOU IN A HOLE?\n\n| LIVE NOW.\n\n6S\n\nre\n\n<A\n\nae\n\na=——D -\n\nN'T QUESTION IT.\n\nCLOSE THE\n\nTHIS IS, FOR REASONS\n\nDOOR ON YOUR\n\nUNKNOWN, MAKING\n\nWAY OUT!\n\nHIM HAPPY.\n\nE\n\n°\n\na\n\nDP\n\n=\n\non\n\noyvF\n\nVE\n\nee\n\n“am\n\nLE E>\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "a-bad-mood",
+      "slug": "a-bad-mood",
+      "url": "https://poorlydrawnlines.com/comic/a-bad-mood/",
+      "title": "A Bad Mood",
+      "date": "2026-11-13",
+      "dateLabel": "Nov 13, 2026",
+      "thumbnail": "thumbs/a-bad-mood.webp",
+      "titleText": "A Bad Mood",
+      "comicText": "wa\n\nARE YOU INA\n\nBAD MOOD?\n\n(\n\n{| tt |\n\nI'M JUST\n\nTHAT'S ACTUALLY A\n\nTEMPORARILY NOT\n\nNICE WAY OF\n\nIN A GOOD MOOD.\n\nTHINKING ABOUT IT.\n\nadh\n\nLt vr\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
