@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-17T07:34:35.948Z",
+  "generatedAt": "2026-11-18T07:34:56.018Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1674,
-  "totalIndexedComics": 1674,
+  "totalArchiveComics": 1675,
+  "totalIndexedComics": 1675,
   "fields": [
     "titleText",
     "comicText",
@@ -20095,6 +20095,18 @@
       "thumbnail": "thumbs/a-bad-mood.webp",
       "titleText": "A Bad Mood",
       "comicText": "wa\n\nARE YOU INA\n\nBAD MOOD?\n\n(\n\n{| tt |\n\nI'M JUST\n\nTHAT'S ACTUALLY A\n\nTEMPORARILY NOT\n\nNICE WAY OF\n\nIN A GOOD MOOD.\n\nTHINKING ABOUT IT.\n\nadh\n\nLt vr\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "through-it-all",
+      "slug": "through-it-all",
+      "url": "https://poorlydrawnlines.com/comic/through-it-all/",
+      "title": "Through it All",
+      "date": "2026-11-17",
+      "dateLabel": "Nov 17, 2026",
+      "thumbnail": "thumbs/through-it-all.webp",
+      "titleText": "Through it All",
+      "comicText": "Va aw\n\nMOUSE, HOW\n\nDO YOU GET\n\nTHROUGH IT ALL?\n\ng°\n\n1AM STILL IN IT\n\nTO THIS DAY.\n\n9°\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
