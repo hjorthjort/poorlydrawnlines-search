@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-24T07:34:48.999Z",
+  "generatedAt": "2026-11-25T07:35:02.386Z",
   "source": "https://poorlydrawnlines.com/archive/",
-  "totalArchiveComics": 1675,
-  "totalIndexedComics": 1675,
+  "totalArchiveComics": 1676,
+  "totalIndexedComics": 1676,
   "fields": [
     "titleText",
     "comicText",
@@ -20107,6 +20107,18 @@
       "thumbnail": "thumbs/through-it-all.webp",
       "titleText": "Through it All",
       "comicText": "Va aw\n\nMOUSE, HOW\n\nDO YOU GET\n\nTHROUGH IT ALL?\n\ng°\n\n1AM STILL IN IT\n\nTO THIS DAY.\n\n9°\n\nPOORLY DRAUN LINES",
+      "metadataText": ""
+    },
+    {
+      "id": "on-the-road",
+      "slug": "on-the-road",
+      "url": "https://poorlydrawnlines.com/comic/on-the-road/",
+      "title": "On the Road",
+      "date": "2026-11-24",
+      "dateLabel": "Nov 24, 2026",
+      "thumbnail": "thumbs/on-the-road.webp",
+      "titleText": "On the Road",
+      "comicText": "I'VE BEEN ON\n\nTHE ROAD FOR\n\nSO LONG.\n\nee\n\nLAY\n\nI MISS ALL\n\nBIRD\n\nW4\n\nMY PALS.\n\n(\\P\n\nFy\n\n>\n\nAS\n\nx7\n\n(\\\n\nAND OF\n\nCOURSE SMAIL.\n\nARE YOU\n\nSAYING\n\n\"SMAIL?\"\n\nhe\n\nWN\n\n@)\n\na?\n\n+\n\nWHAT ARE\n\nYOU DOING\n\nHERE, SMAIL?\n\nPOORLY DRAUN LINES",
       "metadataText": ""
     }
   ]
